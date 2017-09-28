@@ -1,0 +1,18 @@
+Git Friends - A Single Page Application -
+
+Description:
+Create a service that allows a user to search for a GitHub username. On a successful search return, display the user's GitHub handle, follower count, and a list of the user's followers avatar.
+
+Technical choices, and architecture:
+Given the time allotment I chose a simplified and straighforward approach. Maintain a separation of concerns by keeping JS, HTML, CSS, and any dependencies self contained. I also used common practices in design: (hero with image to one side, copy to the other, header to indicate exactly the intent/purpose, symetrical UI)
+
+Given more time I would have delved into error handling or other edge cases such as:
+	1. Refresh the data when user types in another name.
+	2. Increase the followers avatar views. Gitub API defaults to 30 per page
+		adding more 'per page' views
+		- https://api.github.com/users/person/followers?per_page=100
+	3. Increase the followers avatar page views
+		- https://api.github.com/users/person/followers?per_page=100&page=2
+	4. Javascript minification, concatination, and the use of sprites to increase optimization.
+
+Link to the hosted application.
