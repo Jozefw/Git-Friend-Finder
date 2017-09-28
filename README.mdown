@@ -14,5 +14,3 @@ Given more time I would have delved into error handling or other edge cases such
 	3. Increase the followers avatar page views
 		- https://api.github.com/users/person/followers?per_page=100&page=2
 	4. Javascript minification, concatination, and the use of sprites to increase optimization.
-
-Link to the hosted application.
